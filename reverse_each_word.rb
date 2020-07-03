@@ -13,5 +13,4 @@ def reverse_each_word(string)
 end 
   
 reverse_each_word("Hi again") 
-binding.pry 
-p "hi"
+
