@@ -1,8 +1,8 @@
 require "pry"
 
-def reverse_each_word(String)
+def reverse_each_word(string)
   final_array = []
-  string_array = %w[String]
+  string_array = %w[#{string}]
   binding.pry
   string_array.each do |element|
    element.reverse 
