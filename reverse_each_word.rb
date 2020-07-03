@@ -5,10 +5,11 @@ def reverse_each_word(string)
   string_array = %w[string]
   string_array.each do |element|
    element.reverse 
-   binding.pry
    final_array << element
   end 
   final_array.join()
+  binding.pry
+  
 end 
   
 reverse_each_word("Hi again") 
