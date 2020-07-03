@@ -6,9 +6,9 @@ def reverse_each_word(string)
   string_array.each do |element|
    element.reverse! 
    final_array << element
-   binding.pry
   end 
   final_array.join()
+  binding.pry
 
   
 end 
