@@ -1,6 +1,6 @@
 require "pry"
 
-def reverse_each_word(string)
+def reverse_each_word("string")
   final_array = []
   string_array = %w[string]
   binding.pry
