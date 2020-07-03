@@ -11,4 +11,4 @@ def reverse_each_word(string)
   final_array.join()
 end 
   
-  
+reverse_each_word("Hi again") 
