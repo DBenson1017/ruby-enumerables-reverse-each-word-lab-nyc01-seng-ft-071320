@@ -7,7 +7,7 @@ def reverse_each_word(string)
    element.reverse! 
    final_array << element
   end 
-  final_array.join( )
+  final_array.join(" ")
 
   
 end 
